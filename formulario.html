@@ -119,15 +119,16 @@
       <button onclick="location.href='tabel.html'">Lugares que no me puedo perder</button>
     </div>
     <div class="form-container" style="display: flex; justify-content: center;">
+        <form action="get_data.php" method="POST">
     <form>
         <h2>Nuevo lugar que visitar</h2>
         <div>
-            <label for="name">Nombre del lugar:</label>
-            <input type="text" id="name" name="name" required>
+            <label for="nombre-lugar">Nombre del lugar:</label>
+            <input type="text" id="nombre-lugar" name="nombre-lugar" required>
         </div>
         <div>
             <label for="descriere">Descripcion:</label>
-            <textarea type="text" id="descriere" name="descriere" ></textarea>
+            <textarea type="text" id="descripcion" name="descripcion" ></textarea>
         </div>
         <div>
             <label for="text">Municipio donde se encuentra</label>
@@ -158,15 +159,15 @@
         </div>
         <div>
             <label for="text">URL con mas informacion:</label>
-            <input id="text" name="text" required>
+            <input id="url-info" name="url-info" required>
         </div>
         <div>
             <label for="text">URL con enlace A Google Maps</label>
-            <input id="text" name="text" required>
+            <input id="url-maps" name="url-maps" required>
         </div>
         <div>
             <label for="text">Imagen:</label>
-            <input id="text" name="text" required>
+            <input id="imagen" name="imagen" required>
         </div>
         <div>
             <button type="Enviar">Enviar</button>
