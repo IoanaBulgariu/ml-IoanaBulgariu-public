@@ -2,64 +2,15 @@
 <html>
 <head>
 	<title>Descubriendo Gran Canaria</title>
-	<style>
-		body {
-			background-color: white;
-			margin: 0;
-			padding: 0;
-			padding-top: 50px;
-			padding-bottom: 50px;
-		}
-		h1 {
-			font-family: "Times New Roman", Times, serif;
-			color: white;
-			background-color: black;
-			text-align: center;
-			padding: 20px;
-			margin: 0;
-		}
-		button {
-			font-family: "Times New Roman", Times, serif;
-			font-size: 18px;
-			color: black;
-			background-color: transparent;
-			border: none;
-			cursor: pointer;
-			margin: 10px;
-			padding: 10px 20px;
-			transition: color 0.2s, background-color 0.2s;
-		}
-		button:hover {
-			color: white;
-			background-color: black;
-		}
-        .image-container {
-           display: flex;
-           justify-content: center;
-        }
-        .caption {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  font-size: 14px;
-  font-family: 'Times New Roman', serif;
-  color: black;
-}
-
-	</style>
-</head>
+    <link rel="stylesheet" href="style/style.css">
 <body>
-	<h1>Descubriendo Gran Canaria</h1>
+	<a href="index.html"><h1>Descubriendo Gran Canaria</h1></a>
 	<div style="display: flex; justify-content: center;">
-        <div class="button-container">
-            <button onclick="location.href='formulario.html'">Nuevo Lugar que visitar</button>
-			<button> <button onclick="location.href='tabel.html'">Lugares que no me puedo perder</button>
-          </div>
+		<a href="register.php"><button>Nuevo Lugar que visitar</button></a>
+		<a href="locations.html"><button>Lugares que no me puedo perder</button></a>
 	</div>
     <div class="image-container">
-        <img class="image" src="Gran-Canaria-Acusa-Artenara.jpg" alt="Canare">
+        <img class="image" src="photo.jpg" alt="Canare">
       </div>
-      <div class="caption">En esta pequena a aplication web vamos a poder registrat y consultar lugares de Gran Canaria que deberiamos visitor. Tambien vamos a poder marcar aquellos que ya heos visitado.</div>
-      
 </body>
 </html>
