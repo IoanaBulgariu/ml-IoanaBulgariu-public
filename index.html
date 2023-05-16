@@ -2,15 +2,87 @@
 <html>
 <head>
 	<title>Descubriendo Gran Canaria</title>
-    <link rel="stylesheet" href="style/style.css">
+	<link rel="icon" type="image/x-icon" href="images/1683022998.ico">
+	<style>
+		body {
+			background-color: white;
+			margin: 0;
+			padding: 0;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		h1 {
+			font-family: "Times New Roman", Times, serif;
+			color: white;
+			background-color: black;
+			text-align: center;
+			padding: 20px;
+			margin: 0;
+		}
+		button {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 18px;
+			color: black;
+			background-color: transparent;
+			border: none;
+			cursor: pointer;
+			margin: 10px;
+			padding: 10px 20px;
+			transition: color 0.2s, background-color 0.2s;
+		}
+		button:hover {
+			color: white;
+			background-color: black;
+		}
+        .image-container {
+           display: flex;
+           justify-content: center;
+        }
+        .da{
+           font-size: 35px;
+           font-family: fantasy;
+           text-align: center;
+           color:brown;
+        }
+       a{
+		color: black;
+		text-decoration: none;
+		margin-top: 20px;
+		font-family: "Times New Roman", Times, serif;
+			font-size: 18px;
+			color: black;
+			background-color: transparent;
+			border: none;
+			cursor: pointer;
+			margin: 10px;
+			padding: 10px 20px;
+			transition: color 0.2s, background-color 0.2s;
+	   }
+	   a.das:hover{
+		width: 240px;
+		height: 30px;
+		background-color: black;
+		color: white;
+	   }
+	   
+	</style>
+</head>
 <body>
+	
 	<a href="index.html"><h1>Descubriendo Gran Canaria</h1></a>
 	<div style="display: flex; justify-content: center;">
-		<a href="register.html"><button>Nuevo Lugar que visitar</button></a>
-		<a href="locations.html"><button>Lugares que no me puedo perder</button></a>
+		<a class="das" href="./nuevolugar.html">Nuevo Lugar que visitar</a>
+		<a class="das" href="test.php">Lugares que no me puedo perder</a>
+		<a href="#index.html"></a>
+		
+		
 	</div>
     <div class="image-container">
-        <img class="image" src="photo.jpg" alt="Canare">
+        <img class="image" src="images/Gran-Canaria-Acusa-Artenara.jpg" alt="Canare">
       </div>
+	  <p style="text-align: center; font-family: sans-serif">En esta peqeuna app web vamos a poder registrar y consultar 
+	lugares de Gran Canaria que deberamos visitar. Tambien vamos a poder marcar aquellos lugares que ya hemos visitado.</p>
+
+	
 </body>
 </html>
